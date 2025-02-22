@@ -33,7 +33,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
-    strings : ["Web Developer","UI/UX Designer","Freelancer"],
+    strings : ["Web Developer","UI/UX Designer","Freelancer","Front-End Developer"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -113,5 +113,6 @@ function scrollActive() {
     }
   })
 }
+
 
 window.addEventListener('scroll', scrollActive)
